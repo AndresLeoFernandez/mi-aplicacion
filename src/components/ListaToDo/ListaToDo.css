@@ -1,0 +1,27 @@
+div.items-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+div.items-list> div {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: #f9f5f5
+}
+button.remove{
+    background-color: #ca1313;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,0));
+    box-shadow: inset 0 0 0 1px rgba(16,22,26,.4),inset 0 -1px 0 rgba(16,22,26,.2);
+    border: none;
+    border-radius: 50%;
+}
+button.remove:hover {
+    color: #fff;
+    font-weight: 600;
+}
